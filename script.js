@@ -1,7 +1,7 @@
 function getFormvalue() {
 	// let form  = document.getElemntById("form1");
-	let name =  document.getElementByName("fname").value;
-	let lname = document.getElementByName("lname").value;
+	let name =  document.getElementByTag("input").value;
+	let lname = document.getElementByTag("input").value;
 
 	window.alert(name+lname);
 
