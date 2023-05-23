@@ -1,10 +1,11 @@
-function getFormvalue() {
-	// let form  = document.getElemntById("form1");
-	let name =  document.getElementByTag("input").value;
-	let lname = document.getElementByTag("input").value;
+function getFormvalue(event) {
+	 
+ 
+	   let f = document.getElementById("form1");
+	 let fname = f.children[0].value;
+     let lname = f.children[1].value;
 
-	window.alert(name+lname);
-
+     alert(fname +" "+lname);
 	
     //Write your code here
 
